@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Types = () => {
     return (
-        <div className='types'>
+        <div className='types' id='one'>
             <div className='container'>
                 <div className='type__text'>
                     <h2>Pizza Menu</h2>

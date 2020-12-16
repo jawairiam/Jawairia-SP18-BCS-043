@@ -1,4 +1,5 @@
 import React from 'react'
+import Types from './Types'
 
 export const Navbar = () => {
     return (
@@ -8,20 +9,20 @@ export const Navbar = () => {
                     <im src="/34.png" alt= "logo"></im>
                 </div>
                 <ul className='navbar__ul'>
-                        <li>
-                            Home
+                        <li >
+                        <a href='#five' id='six'>Home</a>
+                        </li>
+                        <li >
+                            <a href='#one' id='six'>Menu</a>
                         </li>
                         <li>
-                            Menu
+                        <a href='#two' id='six'>Shop</a>
                         </li>
                         <li>
-                            Shop
+                        <a href='#three' id='six'>About Us</a>
                         </li>
                         <li>
-                            News
-                        </li>
-                        <li>
-                            Contact
+                        <a href='#four' id='six'>Contact</a>
                         </li>
                     </ul>
 
